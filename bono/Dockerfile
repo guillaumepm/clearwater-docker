@@ -11,5 +11,5 @@ COPY bono.supervisord.conf /etc/supervisor/conf.d/bono.conf
 COPY restund.supervisord.conf /etc/supervisor/conf.d/restund.conf
 COPY clearwater-group.supervisord.conf /etc/supervisor/conf.d/clearwater-group.conf
 
-EXPOSE 3478 3478/udp 5058 5060 5060/udp 5062
+EXPOSE 3478 5058 5060 5062
 USER metaswitch
